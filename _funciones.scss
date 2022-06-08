@@ -1,0 +1,17 @@
+@mixin flex ($display, $flexDirection, $justifyContent,$alingItems, $margin){
+    display:$display;
+    flex-direction:$flexDirection;
+    justify-content:$justifyContent;
+    align-items: $alingItems;
+    margin: $margin;
+}
+
+@mixin nv-orientation ($justifyContent, $alingItems, $margin){
+    justify-content:$justifyContent;
+    align-items:$alingItems;
+    margin:$margin;
+}
+
+@mixin contenedor-transparente ($borderRadius){
+    border-radius:$borderRadius;
+}
